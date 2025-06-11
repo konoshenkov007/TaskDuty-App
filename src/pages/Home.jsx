@@ -11,7 +11,7 @@ export const Home = () => {
           {/* HERO TEXT */}
           <article className='col-span-2 order-2 lg:order-1 md:pt-6 '>
             <h1 className='font-500 text-[36px] md:text-[50px]'>
-              <span>Manage your Tasks on </span>
+              <span className='text-[#292929]'>Manage your Tasks on </span>
               <span className='text-[#974FD0]'>TaskDuty</span>
             </h1>
 
