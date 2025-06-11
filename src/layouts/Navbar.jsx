@@ -13,7 +13,7 @@ export const Navbar = () => {
             <div className='flex items-center gap-2'>
                 <Link to="/" className='flex items-center gap-2'>
                     <img className='w-[39px] h-[41px]' src={navLogo} alt='Nav Logo' />
-                    <span className='text-[27.37px] font-600 text-[#background: #2D0050]'>TaskDuty</span>
+                    <span className='text-[27.37px] font-600 text-[#2D0050]'>TaskDuty</span>
                 </Link>
             </div>
 

@@ -9,7 +9,7 @@ const NavLinks = ({isNew, isTask}) => {
         <>
             {/* NAV LINKS */}
             <div className='items-center gap-10 hidden md:flex'>
-                <ul className='flex items-center gap-10 font-500 text-[22px] text-[background: #292929]'>
+                <ul className='flex items-center gap-10 font-500 text-[22px] text-[#292929]'>
                     {!isNew && <li><Link to="/new-task">New Task</Link></li>}
                     {!isTask && <li><Link to="/all-tasks">All Tasks</Link></li>}
 

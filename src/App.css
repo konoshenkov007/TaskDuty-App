@@ -4,6 +4,7 @@
 @plugin "daisyui";
 
 body{
+    background-color:white;
     max-width: 1600px;
     margin: 0 auto;
     font-family: "Signika Negative", sans-serif;
