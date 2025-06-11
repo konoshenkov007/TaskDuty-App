@@ -25,7 +25,7 @@ export const AllTasks = () => {
                 return(
                   <article key={_id} className='border-[#B8B6B6] border-[0.5px] py-6 px-3 rounded-[10px]'>
                     
-                    <MappedTasks taskTitle={taskTitle} tag={tag} description={description}/>
+                    <MappedTasks thisTaskID={_id} taskTitle={taskTitle} tag={tag} description={description}/>
                   </article>
                 )
               })

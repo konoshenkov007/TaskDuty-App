@@ -5,6 +5,7 @@ import { Home } from './pages/Home'
 import { AllTasks } from './pages/AllTasks'
 import { NewTask } from './pages/NewTask'
 import { ErrorPage } from './pages/ErrorPage'
+import { EditTask } from './pages/EditTask'
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/all-tasks' element={<AllTasks />} />
           <Route path='/new-task' element={<NewTask />} />
+          <Route path='/edit-task/:taskID'element={<EditTask />} />
           <Route path='*' element={<ErrorPage />} />
+
         </Routes>
 
       </BrowserRouter >

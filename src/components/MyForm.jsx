@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom'
 import ScrollToTop from './ScrollToTop'
 
 const Form = ({ formTitle, formData, onChange, onSubmit }) => {
+  
+  const tagSelect = document.getElementById('tag');
+  if (tagSelect) tagSelect.style.backgroundColor = '#9C9C9C';
+  
   return (
     <>
 
@@ -32,14 +36,19 @@ const Form = ({ formTitle, formData, onChange, onSubmit }) => {
               <fieldset className="pb-5 pt-2 border border-[#B8B6B6] px-10 rounded-[5px] w-full h-full">
                 <legend className="text-[#9C9C9C] font-[400] lg:text-[30px] text-[25px]">Tag</legend>
 
-                {/* Fake Placeholder Tags */}
-                <div
-                  id="placeholder-tags"
-                  className="font-[400] text-[22px] absolute left-10 lg:top-[53px] top-[50px4 flex gap-2 pointer-events-none z-0"
-                >
-                  <span className="bg-[#9C9C9C] text-white px-2 py-1 rounded">Urgent</span>
-                  <span className="bg-[#9C9C9C] text-white px-2 py-1 rounded">Important</span>
-                </div>
+              {/* Fake Placeholder Tags */}
+                {
+                  !formData.tag ? (
+                    <div
+                      id="placeholder-tags"
+                      className="font-[400] text-[22px] absolute left-10 lg:top-[53px] top-[50px] flex gap-2 pointer-events-none z-0"
+                    >
+                      <span className="bg-[#9C9C9C] text-white px-2 py-1 rounded">Urgent</span>
+                      <span className="bg-[#9C9C9C] text-white px-2 py-1 rounded">Important</span>
+                    </div>
+                  ) : null
+                }
+
 
                 {/* Select Field */}
                 <select
