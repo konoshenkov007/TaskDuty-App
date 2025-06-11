@@ -1,0 +1,20 @@
+1   Project Introduction
+        - Figma
+        - React
+        - Packages to install in React :
+            Tailwind CSS
+            daisyUI
+            Font Family (Google Fonts)
+            React Router
+
+2   Navbar & Home Page UI
+
+3   All Tasks UI
+
+4   New Task UI
+
+5   Edit Task UI
+
+6   Consuming API's
+
+Pushing to GitHub and Deploying to Vercel

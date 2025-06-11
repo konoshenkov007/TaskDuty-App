@@ -1,0 +1,18 @@
+GET STARTED
+npm create vite@latest . -- --template react
+npm install
+
+SETUP TAILWIND CSS
+npm install tailwindcss @tailwindcss/vite
+
+INSTALL DAISYUI AS A TAILWIND PLUGIN
+npm install -D daisyui@latest
+
+INSTALL GOOGLE FONT : Signika Negative
+https://fonts.google.com
+
+INSTALL REACT ROUTER DOM
+npm install react-router-dom
+
+
+
