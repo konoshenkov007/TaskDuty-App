@@ -4,7 +4,6 @@
 @plugin "daisyui";
 
 body{
-    background-color:white;
     max-width: 1600px;
     margin: 0 auto;
     font-family: "Signika Negative", sans-serif;
@@ -12,4 +11,8 @@ body{
 
 .wrapper{
     @apply  w-full mx-auto container mx-auto py-10 px-4 md:px-14 md:py-5 lg:px-40
+}
+
+:is(body, main, nav){
+    background-color:white!important;
 }
